@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reles Video</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="dark-mode">
+  <header>
+    <img
+      src="data:image/jpeg;base64,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"
+      alt="" srcset="" class="logo-header" />
+    <div class="header-links">
+      <a onclick=" show()" href="">Home</a>
+      <a href="">About</a>
+      <a href="">Coureses</a>
+      <button class="mode" onclick=" mode()">mode</button>
+    </div>
+  </header>
+  <main id="main">
+    <h1 style="text-align: center">WELCOME TO OUR WEBSITE</h1>
+
+    <div class="button-page-div">
+      <button onclick="show()" class="page-button">Main page</button>
+      <button onclick="hide()" class="page-button">Next page</button>
+    </div>
+
+    <div class="video-contianer">
+      <div class="video-div">
+        <video  controls src="video10.mp4"></video>
+        <h3>video of water rain</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+          vitae mollitia tempora rerum non quasi aut libero porro ut! Ad hic
+          debitis natus!
+        </p>
+        <button class="video-div-button">view</button>
+      </div>
+
+      
+        <div class="video-div">
+          <video  controls src="video11.mp4"></video>
+          <h3>video of water rain</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            vitae mollitia tempora rerum non quasi aut libero porro ut! Ad hic
+            debitis natus!
+          </p>
+          <button class="video-div-button">view</button>
+        </div>
+
+        
+          <div class="video-div">
+            <video  controls src="video12.mp4"></video>
+            <h3>video of water rain</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+              vitae mollitia tempora rerum non quasi aut libero porro ut! Ad hic
+              debitis natus!
+            </p>
+            <button class="video-div-button">view</button>
+          </div>
+
+         
+            <div class="video-div">
+              <video  controls src="video13.mp4"></video>
+              <h3>video of water rain</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                vitae mollitia tempora rerum non quasi aut libero porro ut! Ad hic
+                debitis natus!
+              </p>
+              <button class="video-div-button">view</button>
+            </div>
+
+           
+              <div class="video-div">
+                <video  controls src="video15.mp4"></video>
+                <h3>video of water rain</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                  vitae mollitia tempora rerum non quasi aut libero porro ut! Ad hic
+                  debitis natus!
+                </p>
+                <button class="video-div-button">view</button>
+              </div>
+
+             
+                <div class="video-div">
+                  <video  controls src="video16.mp4"></video>
+                  <h3>video of water rain</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                    vitae mollitia tempora rerum non quasi aut libero porro ut! Ad hic
+                    debitis natus!
+                  </p>
+                  <button class="video-div-button">view</button>
+                </div>
+
+              
+                  <div class="video-div">
+                    <video  controls src="video17.mp4"></video>
+                    <h3>video of water rain</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                      vitae mollitia tempora rerum non quasi aut libero porro ut! Ad hic
+                      debitis natus!
+                    </p>
+                    <button class="video-div-button">view</button>
+                  </div>
+
+                  
+                    <div class="video-div">
+                      <video  controls src="video18.mp4"></video>
+                      <h3>video of water rain</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                        vitae mollitia tempora rerum non quasi aut libero porro ut! Ad hic
+                        debitis natus!
+                      </p>
+                      <button class="video-div-button">view</button>
+                    </div>
+
+                    
+                      <div class="video-div">
+                        <video  controls src="video19.mp4"></video>
+                        <h3>video of water rain</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                          vitae mollitia tempora rerum non quasi aut libero porro ut! Ad hic
+                          debitis natus!
+                        </p>
+                        <button class="video-div-button">view</button>
+                      </div>
+
+                     
+                        <div class="video-div">
+                          <video  controls src="video.mp4"></video>
+                          <h3>video of water rain</h3>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                            vitae mollitia tempora rerum non quasi aut libero porro ut! Ad hic
+                            debitis natus!
+                          </p>
+                          <button class="video-div-button">view</button>
+                        </div>
+
+                        <div class="video-div">
+                          <video  controls src="video2.mp4"></video>
+                          <h3>video of water rain</h3>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                            vitae mollitia tempora rerum non quasi aut libero porro ut! Ad hic
+                            debitis natus!
+                          </p>
+                          <button class="video-div-button">view</button>
+                        </div>
+
+                        <div class="video-div">
+                          <video  controls src="video3.mp4"></video>
+                          <h3>video of water rain</h3>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                            vitae mollitia tempora rerum non quasi aut libero porro ut! Ad hic
+                            debitis natus!
+                          </p>
+                          <button class="video-div-button">view</button>
+                        </div>
+
+                        <div class="video-div">
+                          <video  controls src="video4.mp4"></video>
+                          <h3>video of water rain</h3>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                            vitae mollitia tempora rerum non quasi aut libero porro ut! Ad hic
+                            debitis natus!
+                          </p>
+                          <button class="video-div-button">view</button>
+                        </div>
+
+                        <div class="video-div">
+                          <video  controls src="video6.mp4"></video>
+                          <h3>video of water rain</h3>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                            vitae mollitia tempora rerum non quasi aut libero porro ut! Ad hic
+                            debitis natus!
+                          </p>
+                          <button class="video-div-button">view</button>
+                        </div>
+
+                        <div class="video-div">
+                          <video  controls src="video7.mp4"></video>
+                          <h3>video of water rain</h3>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                            vitae mollitia tempora rerum non quasi aut libero porro ut! Ad hic
+                            debitis natus!
+                          </p>
+                          <button class="video-div-button">view</button>
+                        </div>
+                      </div>
+
+                      <div id="video-contianer-div-2">
+                        <h1 style="text-align: center;">hellow world</h1>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                          veritatis delectus numquam voluptas qui explicabo officia aperiam
+                          repudiandae dicta dolor doloribus voluptates illum sunt molestiae
+                          harum, quae dolore rerum tenetur quo aliquid vero corporis voluptatum?
+                          Ea aperiam quisquam quaerat, similique perspiciatis, placeat animi
+                          corporis consequatur provident nostrum accusamus voluptate optio at
+                          corrupti maxime sapiente dolores Lorem ipsum dolor sit, amet
+                          consectetur adipisicing elit. Odio dolor repudiandae sapiente
+                          architecto, reprehenderit assumenda accusamus est? Dolorum quod minus
+                          accusamus animi, ab illo dolore tempora distinctio rem sit minima
+                          labore, qui ullam, sunt autem? Accusamus eius unde incidunt maxime
+                          repudiandae expedita, molestiae est quidem doloremque vitae
+                          perspiciatis obcaecati. Nam modi quaerat ducimus possimus velit
+                          provident, praesentium facilis odio. Quibusdam sunt accusantium
+                          aliquid sed consequatur excepturi. Error aspernatur aliquid deserunt,
+                          dolores nulla necessitatibus dolore sed eaque dolorum tempore illum
+                          magnam animi ex quia rem laudantium autem saepe. Cum magni provident
+                          optio, odio tempora ab illum corporis, assumenda, in nam dolores ea.
+                          Impedit, facere error quam non nulla cumque quidem eum amet similique.
+                          Officiis omnis explicabo natus commodi quidem reprehenderit sint! In
+                          consequatur a saepe id odio enim, sequi blanditiis quos praesentium
+                          velit nam! Temporibus nobis exercitationem pariatur neque molestiae,
+                          est eos laborum ipsum quibusdam excepturi laboriosam sed esse illum
+                          dolorum, officiis voluptatibus, quo atque soluta quas assumenda dicta
+                          sequi repellat. Nulla repellat ullam alias quaerat voluptates delectus
+                          labore quis nihil. Amet quibusdam obcaecati iure unde cupiditate hic
+                          tenetur doloribus dicta perferendis inventore! Inventore consequatur
+                          possimus saepe cum obcaecati sit est dolore facere beatae molestiae,
+                          quas ratione adipisci. Corporis quibusdam magni sunt sint, recusandae
+                          molestias aspernatur et sapiente quas, error nesciunt saepe iusto,
+                          exercitationem beatae porro alias. Saepe numquam nemo accusantium
+                          voluptate unde aut, qui quaerat architecto. Consectetur mollitia
+                          facilis a optio veniam quod, maiores obcaecati incidunt deleniti hic
+                          corporis aliquid amet rem aspernatur accusantium repellendus possimus
+                          dolores quos omnis. Nesciunt nostrum alias nam distinctio est sit quo
+                          ex a tempore. Facere, iusto. Sed repellat quis nostrum modi ullam
+                          autem suscipit, odit temporibus iure vitae dignissimos facere
+                          similique error a vero voluptate, saepe assumenda cum, natus fugit vel
+                          fugiat. Fugiat, quis cumque amet sed ullam libero minima delectus
+                          placeat vitae autem omnis iusto quos doloribus nostrum quia obcaecati
+                          voluptatem neque repudiandae hic eaque assumenda soluta eligendi? Modi
+                          fuga, inventore possimus eveniet nam animi laborum autem repellat hic
+                          facilis labore beatae? Provident magnam, aperiam deserunt sunt
+                          consequatur, doloremque, sit explicabo cumque esse blanditiis autem
+                          aliquid culpa. Qui ad necessitatibus, perspiciatis magni minima quasi
+                          aperiam quas blanditiis officia obcaecati sunt, molestiae itaque,
+                          eaque magnam harum accusantium voluptatem animi cumque possimus quia
+                          impedit. Beatae, officia doloremque? Repudiandae quam necessitatibus
+                          quis, nihil saepe facere adipisci a placeat ullam labore vero
+                          quibusdam vitae. Ex alias vero aspernatur culpa, illo perspiciatis quo
+                          voluptatem suscipit recusandae autem, nam reiciendis asperiores magni.
+                          Nam tenetur error beatae perferendis expedita sit, aliquid, est
+                          voluptatem corporis cupiditate cum sint laudantium cumque. Debitis,
+                          id. Nulla numquam, impedit sit quo veniam magni dolore assumenda
+                          necessitatibus ea nam totam voluptas libero quod in similique officia
+                          blanditiis architecto cum unde nihil! Asperiores ad dicta veritatis
+                          molestias aspernatur ipsa reiciendis consectetur exercitationem
+                          accusamus rerum necessitatibus quae totam possimus deleniti
+                          consequuntur vero commodi, omnis impedit laudantium quo non fuga
+                          voluptatum sequi natus. Tenetur harum iste reprehenderit dolorum
+                          perferendis repellat quidem eligendi, rem consequatur esse similique
+                          iusto explicabo numquam voluptatem possimus illo quasi officia veniam
+                          necessitatibus fugit labore! Animi quasi nostrum mollitia alias
+                          voluptate repellendus nam omnis reprehenderit sint quidem accusamus,
+                          ab natus excepturi quia at molestiae consequatur rerum ipsa culpa
+                          nesciunt, impedit voluptatem asperiores. Repudiandae ipsum dignissimos
+                          odio dolorem pariatur, ut impedit! Itaque atque quas eligendi ab
+                          porro, dolor similique id cum architecto. Omnis aliquam amet aperiam
+                          totam quod nam rerum at laboriosam, sunt dicta magnam nulla inventore
+                          eveniet necessitatibus deserunt nobis. Magnam commodi numquam fugit
+                          aliquam suscipit, asperiores voluptas quos eos fuga id vitae nostrum!
+                          Exercitationem inventore, at necessitatibus mollitia iure quis enim
+                          itaque quibusdam fugiat explicabo voluptates blanditiis numquam quod
+                          nam nihil quae soluta? Obcaecati numquam distinctio ipsa assumenda
+                          esse deleniti sunt, cupiditate tempore voluptas ut veritatis cumque
+                          atque nisi nulla fugiat dolores odit minima praesentium iusto, eos
+                          dicta. Reprehenderit quisquam officiis eius eligendi praesentium quis
+                          accusantium! Et harum temporibus, reprehenderit quidem quod expedita
+                          vitae, cupiditate quasi dolor ab nesciunt aut! Harum inventore
+                          accusamus eaque atque dicta facilis illum incidunt in, sint vitae
+                          sunt, doloribus eius et assumenda ea modi veritatis placeat veniam est
+                          quibusdam ab culpa maxime necessitatibus. Quaerat asperiores eligendi
+                          officia nam assumenda aliquid obcaecati dignissimos cupiditate
+                          veritatis. Voluptate aperiam numquam nesciunt cupiditate quam
+                          praesentium, exercitationem recusandae provident odio libero
+                          consequuntur molestiae doloremque possimus facilis alias consequatur
+                          distinctio minus magnam laudantium corporis temporibus officia.
+                          Aspernatur asperiores quod voluptatibus ducimus a nesciunt sunt
+                          praesentium officiis unde ea temporibus, non similique necessitatibus
+                          perspiciatis explicabo delectus ab repellendus quaerat molestias
+                          assumenda amet inventore quia. Deserunt, dolorum dolores culpa
+                          delectus laboriosam tenetur reprehenderit numquam aspernatur
+                          excepturi, perferendis eum. Ab tenetur possimus voluptatum fugiat
+                          soluta excepturi tempore neque veritatis doloremque harum quod
+                          distinctio in ex fugit iusto temporibus, quidem sunt quasi libero
+                          aperiam enim ducimus dignissimos saepe incidunt! Illo magnam
+                          voluptatem explicabo veniam officia, reprehenderit nam quo dolorem
+                          inventore cumque tenetur doloribus earum hic consequuntur cum corrupti
+                          recusandae facilis quis in! Excepturi ipsum natus dicta inventore quam
+                          alias aspernatur repudiandae deleniti reiciendis cupiditate
+                          praesentium qui vel odio harum magnam temporibus obcaecati placeat
+                          repellat, tenetur odit? Quaerat aut libero magni repellat earum unde a
+                          similique porro. Iusto, est enim illo iste beatae et tenetur, officiis
+                          at adipisci vel fuga ullam accusantium a? Vel aspernatur asperiores,
+                          autem blanditiis dolor earum atque ut quis saepe at voluptatem animi
+                          tempore nemo esse, maiores optio vitae quia repudiandae, magnam
+                          adipisci repellat eius veniam illum. Molestiae minima, dolor amet hic
+                          incidunt ex tempora, exercitationem non quo adipisci fugiat voluptates
+                          corrupti aperiam laudantium repellendus. Reprehenderit, delectus!
+                        </p>
+                      </div>
+
+                      <div class="button-page-div">
+                        <button class="page-button">Main page</button>
+                        <button onclick="hide()" class="page-button">Next page</button>
+                      </div>
+  </main>
+  <footer>
+    <div>
+      <a href="">Fackbook</a>
+      <a href="">Instagram</a>
+      <a href="">Youtube</a>
+      <a href="">X.com</a>
+
+    </div>
+    <p style="color: black; font-weight: bold; font-size: 20px;">Create by Blawan singh rajput</p>
+  </footer>
+
+  <script src="text.js"></script>
+</body>
+
+</html>
