@@ -124,3 +124,9 @@ footer {
 #video-contianer-div-2{
   display: none;
 }
+
+.div-2-para{
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
