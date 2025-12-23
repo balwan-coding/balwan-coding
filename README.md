@@ -1,6 +1,6 @@
 
 
-# ![Balwan Singh Rajput]([https://via.placeholder.com/100x100?text=Avatar](https://avatars.githubusercontent.com/u/174928938?v=4))
+# ![Balwan Singh Rajput](https://avatars.githubusercontent.com/u/174928938?v=4)
 
 ## About Me
 
